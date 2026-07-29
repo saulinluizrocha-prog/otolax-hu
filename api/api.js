@@ -3,7 +3,7 @@ const querystring = require('querystring');
 
 const CONFIG = {
   api_key: 'c66289394c2a6e8515c8e8b382fba719',
-  offer_id: 14537,
+  offer_id: 14854,
   user_id: 75329,
   api_domain: 'https://t-api.org'
 };
@@ -49,7 +49,7 @@ module.exports = async function handler(req, res) {
     phone: phone,
     country: body.country || 'HU',
     tz: 2,
-    stream_id: '409418',
+    stream_id: '409881',
     region: body.region || null,
     city: body.city || null,
     count: body.count || null,
